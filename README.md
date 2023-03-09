@@ -9,7 +9,7 @@ repository:
     required: true
     description: The name of the workflow the action will wait for.
   run_id:
-    description: 'Id of workflow to wait for. If you used `benc-uk/workflow-dispatch` to dispatch, you can use `${{ steps.<step-name>.outputs.workflowId }}`'
+    description: 'Id of workflow to wait for. If you used `benc-uk/workflow-dispatch` to dispatch, you can use ${{ steps.<step-name>.outputs.workflowId }}'
     required: true
   timeout:
     required: false

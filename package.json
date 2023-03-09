@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npx ncc build index.js"
   },
   "keywords": [],
   "author": "Roman Rodriguez <roman.g.rodriguez@gmail.com>",
