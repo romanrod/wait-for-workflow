@@ -4,7 +4,7 @@ const runId = core.getInput('run_id')
 const workflowName = core.getInput('workflow_name')
 const timeout = Number.parseInt(core.getInput('timeout'), 10)
 
-core.debug(`repository ${repository}`)
+core.debug(`repository ${repo}`)
 core.debug(`runId ${runId}`)
 core.debug(`workflowName ${workflowName}`)
 core.debug(`timeout ${timeout}`)
@@ -46,5 +46,5 @@ async function run () {
   }
 }
 
-console.log(`Waiting until workflow ${workflowName} on ${repository} finish.`)
+console.log(`Waiting until workflow ${workflowName} on ${repo} finish.`)
 run()
