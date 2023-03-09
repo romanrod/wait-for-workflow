@@ -4,7 +4,7 @@ inputs:
   repository:
     required: true
     description: Repository name (e.g. romanrod/wait-for-woprkflp).
-  worflow_name:
+  workflow_name:
     required: true
     description: The name of the workflow the action will wait for.
   run_id:
